@@ -6,6 +6,10 @@ inputs:
     description: 'Enable checking for warnings (-w)'
     required: false
     default: ''
+  installed_paths:
+    description: 'Setting the installed standard paths'
+    required: false
+    default: ''
 runs:
   using: 'docker'
   image: 'Dockerfile'
